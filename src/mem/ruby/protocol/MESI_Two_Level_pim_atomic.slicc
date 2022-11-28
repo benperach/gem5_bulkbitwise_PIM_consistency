@@ -1,0 +1,7 @@
+protocol "MESI_Two_Level_pim_atomic";
+include "RubySlicc_interfaces.slicc";
+include "MESI_Two_Level_pim_atomic-msg.sm";
+include "MESI_Two_Level_pim_atomic-L1cache.sm";
+include "MESI_Two_Level_pim_atomic-L2cache.sm";
+include "MESI_Two_Level_pim_atomic-dir.sm";
+include "MESI_Two_Level_pim_atomic-dma.sm";

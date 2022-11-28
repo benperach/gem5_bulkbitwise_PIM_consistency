@@ -1,0 +1,7 @@
+protocol "MESI_Two_Level_pim_scope_relax";
+include "RubySlicc_interfaces.slicc";
+include "MESI_Two_Level_pim_scope_relax-msg.sm";
+include "MESI_Two_Level_pim_scope_relax-L1cache.sm";
+include "MESI_Two_Level_pim_scope_relax-L2cache.sm";
+include "MESI_Two_Level_pim_scope_relax-dir.sm";
+include "MESI_Two_Level_pim_scope_relax-dma.sm";
